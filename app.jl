@@ -1,4 +1,6 @@
 using Dash, DashHtmlComponents, DashCoreComponents;
+## Clean exit on CRTL+C
+Base.exit_on_sigint(false)
 
 PORT = 1234
 if !("PORT" in keys(ENV))
