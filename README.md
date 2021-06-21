@@ -29,3 +29,9 @@ $ git add .  # add all the changes
 $ git commit -m 'a description of the changes'
 $ git push heroku main
 ```
+
+## Preview
+
+The app is deployed at `https://dashjl-deploy.herokuapp.com`.
+
+![imag](assets/img/preview.png)
